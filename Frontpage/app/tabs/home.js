@@ -55,7 +55,7 @@ const gotoprofile = () => {
   <Ionicons name="menu-outline"
    size={26} color="#333" />
   <Text variant="titleLarge" style={{ fontWeight: "bold", color: "#ff3366" }}>
-    Flipkart
+    Stylish
   </Text>
   <TouchableOpacity onPress={gotoprofile}>
   <Avatar.Image 
@@ -123,7 +123,7 @@ const gotoprofile = () => {
   <View style={styles.bannerOverlay}>
     <Text style={styles.bannerTitle}>50–60% OFF</Text>
     <Button mode="contained" buttonColor="#ff3366" style={styles.shopBtn}>
-      Shop now
+      Shop Now
     </Button>
   </View>
 </Card>
