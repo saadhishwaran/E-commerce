@@ -123,7 +123,7 @@ const gotoprofile = () => {
   <View style={styles.bannerOverlay}>
     <Text style={styles.bannerTitle}>50–60% OFF</Text>
     <Button mode="contained" buttonColor="#ff3366" style={styles.shopBtn}>
-      Shop Now
+      Shop now
     </Button>
   </View>
 </Card>
