@@ -55,7 +55,7 @@ const gotoprofile = () => {
   <Ionicons name="menu-outline"
    size={26} color="#333" />
   <Text variant="titleLarge" style={{ fontWeight: "bold", color: "#ff3366" }}>
-    Stylish
+    Flipkart
   </Text>
   <TouchableOpacity onPress={gotoprofile}>
   <Avatar.Image 
