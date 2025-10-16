@@ -38,7 +38,7 @@ const trendingProducts = [
 
 export default function Home() {
   const theme = useTheme();
-
+  
   const navigation = useNavigation();
 
 const gotoprofile = () => {
@@ -135,6 +135,7 @@ const gotoprofile = () => {
           Best of the Day
         </Text>
         <Card style={styles.dealCard}>
+      
           <Card.Cover
             source={{
               uri: "https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg",
@@ -158,6 +159,16 @@ const gotoprofile = () => {
           keyExtractor={(item) => item.id.toString()}
           showsHorizontalScrollIndicator={false}
           renderItem={({ item }) => (
+             <TouchableOpacity
+      onPress={() =>
+        navigation.navigate('product/id', {
+          name: item.name,
+          price: item.price,
+          img: item.img,
+        })
+      }
+    >
+            
             <Card style={styles.trendingCard}>
               <Card.Cover source={{ uri: item.img }} />
               <Card.Content>
@@ -165,6 +176,7 @@ const gotoprofile = () => {
                 <Text style={{ color: "#ff3366" }}>{item.price}</Text>
               </Card.Content>
             </Card>
+            </TouchableOpacity>
           )}
         />
       </View>
