@@ -7,7 +7,7 @@ const initialCartItems = [
     id: '1',
     title: 'Smartphone',
     description: 'Latest Android model, 128GB storage',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRyNRKduQQKQcjYGKm4hYtPu6WK8xyLbjynK34rSan5kdDF-A53RuEdg7TjENGgR_EpqXwdIlMjVqwmJfAggbT-UV8UG0Xa8Cc1u_10EsDbJRBQhbPrZWyaeUVgQy3v8QmlNCZ-PQ&usqp=CAc',
     price: 699,
   },
  

@@ -1,7 +1,6 @@
 // app/product/[id].js
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { View, Text, Image, StyleSheet, ScrollView, Button } from 'react-native';
-import { useRouter} from 'react-navigation/native';
 
 export default function ProductDescription() {
   const { id, name, price, img } = useLocalSearchParams(); 

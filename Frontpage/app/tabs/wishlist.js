@@ -7,7 +7,7 @@ const initialWishlist = [
     id: '1',
     title: 'MacBook Pro',
     description: 'Apple M3 Pro chip, 16GB RAM',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mba13-midnight-cto-hero-202503?wid=840&hei=498&fmt=jpeg&qlt=90&.v=Q2E5SzQzQ0daYWpuZGNscHpUSFFEZktybEU1S0RNR1JRamRyTlliVTJCd2VSQkVmNWJCc0NzWFZ1VVFQblZWdnZvdUZlR0V0VUdJSjBWaDVNVG95YkVTMzRwekd2aEllbUhqT2JVR2ZFU3M',
   },
  
 ];
